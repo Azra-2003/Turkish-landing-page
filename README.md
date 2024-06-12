@@ -1,8 +1,6 @@
-https://azra-2003.github.io/sInema/
-
+Check out the live version of this project on Github Pages : Check out the live version of this project hosted on Github Pages:https://azra-2003.github.io/sInema/
 
 **sInema - Turkish Themed Movie Landing Page**
-
 
 *Table of Contents*
 Introduction
