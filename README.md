@@ -3,46 +3,67 @@ Check out the live version of this project on Github Pages : Check out the live 
 **sInema - Turkish Themed Movie Landing Page**
 
 *Table of Contents*
+
 Introduction
+
 Features
+
 Technologies Used
 
 *Introduction*
+
 Welcome to sInema, a Turkish-themed movie landing page dedicated to showcasing my favorite Turkish movies and series, along with a childhood favorite, Tom and Jerry.
 This project reflects my deep love for Turkey and its rich cinematic culture.
 
+
 **Features**
+
 *Menu Options:*
 
 Adults: Section dedicated to movies and series suitable for adults.
+
 Kids: Section for kid-friendly movies and series.
+
 New Releases: The latest additions to the movie and series collection.
+
 My List: Personalised list where users can add their favorite movies and series.
+
 Search Bar: Located on the right side for easy searching of movies and series.
 
 *Turkish Theme:*
 
 Turkish flag displayed in the left corner.
+
 Red hover effects to maintain the Turkish aesthetic.
+
 Grey-black background for a cozy ambiance.
 
 *Interactive Carousel:*
+
 Clickable movie/series images that display a description.
+
 Titles include:
+
 Movies: Kelebeğin Rüyası
+
 Series: Hercai, Kuruluş Osman, Diriliş Ertuğrul
+
 Childhood Favorite: Tom and Jerry
 
 *Watch Trailer:*
+
 Button plays an MP4 video of a fireplace for a warm, inviting feel.
 
 *Responsive Design:*
+
 Fully responsive and optimized for small screens.
 
 *Smooth Transitions:*
+
 Smooth navigation and interactive elements to enhance user experience.
 
 Technologies Used
+
 HTML
 CSS
 JavaScript
