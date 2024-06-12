@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <title>sInema</title>
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  " />
+  <link rel="stylesheet" href="styles.css" />
+  <img src="turkey (1).png" alt="Turkish Flag" style="width:20px; height:auto;">
+  sInema
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">sInema</a>
+    <ul class="nav">
+      <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> </a></li>
+      <li><a href="">Adults</a></li>
+      <li><a href="">Kids</a></li>
+      <li><a href="">New Releases</a></li>
+      <li><a href="">My List</a></li>
+    </ul>
+    <div class="search">
+      <input type="text" placeholder="Search" />
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+  </header><div class="banner">
+    <div class="content kurulus-osman active">
+        <img class="movie-title" src="kurulus osman name.jpg" alt="Movie Name" />
+        <p class="description">
+          Kuruluş Osman is a historical drama series created by Bozdağ Film. It revolves around the life of Osman I, who is credited with founding the Ottoman Empire. The series chronicles Osman's endeavors to establish and expand the empire amidst various obstacles, including battles and interpersonal dynamics.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Watch</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+        </div>
+      </div>
+      <div class="content kelebegin-ruyasi">
+        <img class="movie-title" src="Kelebegin ruyasi name.png" alt="Movie Name" />
+      <p class="description">
+          In a small Turkish town, two young poets afflicted with tuberculosis strive to survive while publishing their poems. As they both fall in love, their lives would never be the same.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Watch</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+        </div>
+      </div>
+      <div class="content the-hercai">
+        <img class="movie-title" src="hercai name.jpg" alt="Movie Name" />
+      <p class="description">
+          Hercai is a Turkish drama about Miran, who seeks revenge against the Şadoğlu family by marrying their granddaughter Reyyan, only to fall deeply in love with her.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Watch</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+        </div>
+      </div>
+      <div class="content dirilis-ertugrul">
+        <img class="movie-title" src="dirilis ertugrul name.jpg" alt="Movie Name" />
+       <p class="description">
+          Diriliş Ertuğrul, a prequel to Kuruluş Osman, follows Ertuğrul Bey, father of Osman I, the founder of the Ottoman Empire, as he leads the Kayı tribe amidst 13th-century political intrigue.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Watch</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+        </div>
+      </div>
+      <div class="content tom-and-jerry">
+        <img class="movie-title" src="tom and jerry name.jpg" alt="Movie Name" />
+      <p class="description">
+          The timeless feud between Tom and Jerry is revived as Jerry takes up residence in New York City's most prestigious hotel just before "the wedding of the century." In a bid to resolve the situation, the event's frantic organizer recruits Tom to remove Jerry from the premises.
+        </p>
+        <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Watch</a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+      </div>
+    </div>
+    <div class="carousel-box">
+        <div class="carousel">
+          <div class="carousel-item" data-title="Kurulus Osman" data-description="Kuruluş Osman is a historical drama series created by Bozdağ Film. It revolves around the life of Osman I, who is credited with founding the Ottoman Empire. The series chronicles Osman's endeavors to establish and expand the empire amidst various obstacles, including battles and interpersonal dynamics."  data-image="kurulus osman name.jpg" onclick="changeMovieInfo(this);">
+            <img src="./kurulus-osman-turkish-movie-poster.jpg" />
+          </div>
+          <div class="carousel-item" data-title="Kelebegin Ruyasi" data-description="In a small Turkish town, two young poets afflicted with tuberculosis strive to survive while publishing their poems. As they both fall in love, their lives would never be the same."  data-image="Kelebegin ruyasi name.png" onclick="changeMovieInfo(this);">
+            <img src="./kelebegin-ruyasi-turkish-movie-poster.jpg" />
+          </div>
+          <div class="carousel-item" data-title="Hercai" data-description="Hercai is a Turkish drama about Miran, who seeks revenge against the Şadoğlu family by marrying their granddaughter Reyyan, only to fall deeply in love with her."   data-image="hercai name.jpg" onclick="changeMovieInfo(this);">
+            <img src="./hercai-turkish-movie-poster.jpg" />
+          </div>
+          <div class="carousel-item" data-title="Dirilis Ertugrul" data-description="Diriliş Ertuğrul, a prequel to Kuruluş Osman, follows Ertuğrul Bey, father of Osman I, the founder of the Ottoman Empire, as he leads the Kayi tribe amidst 13th-century political intrigue."  data-image="dirilis ertugrul name.jpg" onclick="changeMovieInfo(this);">
+            <img src="./dirilis-ertugrul-turkish-movie-poster.jpg" />
+          </div>
+          <div class="carousel-item" data-title="Tom and Jerry" data-description="The timeless feud between Tom and Jerry is revived as Jerry takes up residence in New York City's most prestigious hotel just before 'the wedding of the century.' In a bid to resolve the situation, the event's frantic organizer recruits Tom to remove Jerry from the premises."  data-image="tom and jerry name.jpg" onclick="changeMovieInfo(this);">
+            <img src="./tom-and-jerry-movie-poster.jpg" />
+          </div>
+        </div>
+      </div>
+      <a href="#" class="play" onclick="toggleVideo()">
+      <i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Trailer
+    </a>
+    <ul class="sci">
+      <li>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div class="trailer">
+    <video src="4982420-hd_1280_720_25fps.mp4" muted controls="true" autoplay="true"></video>
+    <img class="close" src="cancel_8532373.png" alt="close" onclick="toggleVideo()" />
+  </div>
+   <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.carousel').carousel();
+    });
+
+    function toggleVideo() {
+      const trailer = document.querySelector('.trailer');
+      const video = document.querySelector('video');
+      video.pause();
+      trailer.classList.toggle('active');
+    }
+
+    function changeMovieInfo(element) {
+      const newTitle = element.getAttribute('data-title');
+      const newDescription = element.getAttribute('data-description');
+      const newImage = element.getAttribute('data-image');
+      
+      const activeContent = document.querySelector('.content.active');
+      activeContent.querySelector('p.description').innerText = newDescription;
+      activeContent.querySelector('img.movie-title').src = newImage;
+    }
+  </script>
+</body>
+</html>
